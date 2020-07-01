@@ -1,0 +1,49 @@
+La Base de Datos se compone de dos carpetas:
+
+	Test2_data: Contiene las fotos.
+	Test2_info: Contiene archivos xml de cada foto.
+
+El archivo list.txt contiene una lista de los archivos en "Test2_data".
+El archivo list_xml.txt contiene una lista de los archivos en "Test2_info".
+
+El conjunto de imágenes contiene dos fotos del iris izquierdo y dos del iris izquierdo, para cada uno de los 20 individuos (10 hombres y 10 mujeres).
+
+Las imágenes:
+	-Fueron tomadas en interiores, utilizando luz artificial y HDR.
+	-Tienen una resolución de (3120x4160).
+	-Dispositivo utilizado: Motorola Moto G4:
+		-Resolución:	12.98MP
+		-DPI:		72
+		-Tipo:		rear(trasera)
+
+El nombre de los archivos sigue el siguiente diseño:
+
+	S001_L_002.jpg
+
+Donde:
+	S001 es el ID de la persona: 001
+	L es el ojo (left) o R (right)
+	001 es el numero de foto para un ID e iris determinado.	
+
+La información de la base de datos es la siguiente:
+	Filename (nombre de archivo)
+	User_id (id de individuo)
+	Image_number (número de imágen)
+	Iris (left or right)
+	Age (edad)
+	Gender (género)
+	Device_type (Smartphone)
+	Device_name (nombre de dispositivo)
+	Camera_type (rear = cámara trasera, front = cámara frontal)
+	Camera_Resolution (en MP)
+	DPI (puntos por pulgada)
+	Location (interior o exterior)
+	Illumination (artificial o natural)
+	Author
+
+En la carpeta "result/" se encuentran los archivos (generados por programas lectura.py y generar_csv.py):
+	-gender_column.dat	vector columna de genero
+	-age_column.dat		vector columna de edad
+	-device_column.dat	vector columna de dispositivos
+	-database.csv		matriz completa en formato csv
+	-Image_database.csv	contiene las caracteristicas de cada uno de los archivos xml

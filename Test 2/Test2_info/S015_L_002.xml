@@ -1,0 +1,24 @@
+<img>
+  <filename>S015_L_002.jpg</filename>
+  <iris>left</iris>
+  <image_number>002</image_number>
+  <width>3120</width>
+  <height>4160</height>
+  <user id="015">
+    <age>57</age>
+    <gender>M</gender>
+  </user>
+  <device>
+    <type>Smartphone</type>
+    <name>Motorola Moto G4</name>
+    <camera type="rear">
+      <resolution>12.98MP</resolution>
+      <dpi>72</dpi>
+    </camera>
+  </device>
+  <conditions>
+    <location>indoor</location>
+    <illumination>artificial</illumination>
+  </conditions>
+  <author>Jean Contreras, UNAB</author>
+</img>

@@ -1,0 +1,24 @@
+<img>
+  <filename>S004_R_001.jpg</filename>
+  <iris>right</iris>
+  <image_number>001</image_number>
+  <width>3120</width>
+  <height>4160</height>
+  <user id="004">
+    <age>42</age>
+    <gender>F</gender>
+  </user>
+  <device>
+    <type>Smartphone</type>
+    <name>Motorola Moto G4</name>
+    <camera type="rear">
+      <resolution>12.98MP</resolution>
+      <dpi>72</dpi>
+    </camera>
+  </device>
+  <conditions>
+    <location>indoor</location>
+    <illumination>artificial</illumination>
+  </conditions>
+  <author>Jean Contreras, UNAB</author>
+</img>
